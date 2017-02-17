@@ -46,6 +46,8 @@ false
 false  
 false
 
+[Voltar à Lista](#exercícios)
+
 ## Exercício 239 - Jogo do Três
 Elaborar uma implementação do Jogo do Três.  
 Regras do jogo:  
@@ -53,7 +55,7 @@ Regras do jogo:
 - Se ele não for divisível, adicione ou subtraia 1 (para torná-lo divisível), e então divida-o por 3;
 - O jogo termina quando chegar ao número 1.
 
-Para cada passo dado, o jogo deve retornar o número atual, e o passo tomado (1 para soma, -1 para subtração, ou 0 caso a divisão seja feita diretamente). Ao termino do jogo, retornar também o número 1.
+Para cada passo dado, o jogo deve retornar o número atual, e o passo tomado (1 para soma, -1 para subtração, ou 0 caso a divisão seja feita diretamente). Ao término do jogo, retornar também o número 1.
 
 **Input**  
 100  
@@ -97,6 +99,8 @@ Para cada passo dado, o jogo deve retornar o número atual, e o passo tomado (1 
 [2, 1],  
 1
 
+[Voltar à Lista](#exercícios)
+
 ## Exercício 277 - Simplificando Frações
 Uma fração consiste em um numerador (parte superior) e um denominador (parte inferior).  
 Simplificar uma fração significa fazer com que o denominador seja o mais próximo posível de 1. Isso pode ser alcançado dividindo o numerador e o denominador por seu máximo divisor comum.  
@@ -117,6 +121,8 @@ Você receberá dois números (numerador e denominador, nesta ordem), e deve ret
 [7, 18]  
 [7673, 4729]  
 [4, 1]  
+
+[Voltar à Lista](#exercícios)
 
 ---
 
