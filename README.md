@@ -4,9 +4,9 @@ dailyprogrammer
 Escolha um dos exercícios disponíveis para praticar. Cada exercício tem um número, e a explicação do que é pedido, além de um exemplo de *input* e ou *output* esperado.
 
 ## Exercícios  
-- [Exercício 228](##Exercício 228)
-- [Exercício 239](##Exercício 239)
-- [Exercício 277](##Exercício 277)
+- [Exercício 228](#exercício-228---ordem-alfabética)
+- [Exercício 239](#exercício-239---jogo-do-três)
+- [Exercício 277](#exercício-277---simplificando-frações)
 
 ## Exercício 228 - Ordem Alfabética
 Algumas palavras têm suas letras em ordem alfabética, como a palavra "almost", onde cada letra aparece em sequência alfabética.  
