@@ -1,13 +1,38 @@
 dailyprogrammer
 ===============
 
-Escolha um dos exercícios disponíveis para praticar. Cada exercício tem um número, e a explicação do que é pedido, além de um exemplo de *input* e ou *output* esperado.
+Escolha entre os exercícios disponíveis para praticar. Cada exercício tem um número, e a explicação do que é pedido, além de um exemplo de *input* e o *output* esperado.
 
 ## Exercícios  
+- [Exercício 210](#exercício-210---inteiros-compatíveis)
 - [Exercício 214](#exercício-214---desvio-padrão)
 - [Exercício 228](#exercício-228---ordem-alfabética)
 - [Exercício 239](#exercício-239---jogo-do-três)
 - [Exercício 277](#exercício-277---simplificando-frações)
+
+## Exercício 210 - Inteiros Compatíveis
+Para determinar se dois números inteiros são compatíveis, devemos transformá-los em binários e verificar quantos de seus bits são idênticos. Utilizaremos inteiros com 8 bits.  
+Por exemplo: os números 1 e 2, transformados em binários de 8 bits são representados por 00000001 e 00000010 respectivamente. Podemos verificar que os 6 primeiros bits são idênticos, já os dois últimos são diferentes (01 e 10), portanto esses dois números têm uma compatibilidade de 6 / 8, ou 0,75.  
+Outro exemplo: os números 0 e 255 são representados por 00000000 e 11111111. Podemos verificar que nenhum bit coincide, portanto a compatibilidade de 0 e 255 é 0.  
+Escreva um programa que transforme dois inteiros em binários (8 bits), verifique a compatibilidade deles bit a bit, e retorne o valor da compatibilidade. Tal valor deve estar entre 0 e 1.
+
+**Input**  
+0, 255  
+1, 1  
+1, 2  
+92, 167  
+53, 110  
+119, 138  
+
+**Output**  
+0  
+1  
+0.75  
+0.125  
+0.375  
+0.125  
+
+[Voltar à Lista](#exercícios)  
 
 ## Exercício 214 - Desvio Padrão
 Desvio padrão é uma das medidas mais básicas em estatística. Para determinada coleção de valores (conhecida como população, em estatística), o desvio padrão mede quão dispersos os valores estão entre si. Se o desvio padrão é alto, isto significa que a população é muito dispersa; se for baixo, significa que os valores estão bem próximos da média.  
