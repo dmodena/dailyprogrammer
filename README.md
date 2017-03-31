@@ -4,9 +4,33 @@ dailyprogrammer
 Escolha um dos exercícios disponíveis para praticar. Cada exercício tem um número, e a explicação do que é pedido, além de um exemplo de *input* e ou *output* esperado.
 
 ## Exercícios  
+- [Exercício 214](#exercício-214---desvio-padrão)
 - [Exercício 228](#exercício-228---ordem-alfabética)
 - [Exercício 239](#exercício-239---jogo-do-três)
 - [Exercício 277](#exercício-277---simplificando-frações)
+
+## Exercício 214 - Desvio Padrão
+Desvio padrão é uma das medidas mais básicas em estatística. Para determinada coleção de valores (conhecida como população, em estatística), o desvio padrão mede quão dispersos os valores estão entre si. Se o desvio padrão é alto, isto significa que a população é muito dispersa; se for baixo, significa que os valores estão bem próximos da média.  
+Implemente uma função que retorne o desvio padrão de um conjunto de números, a partir dos passos descritos abaixo. Utilizaremos o seguinte conjunto de valores como exemplo: [5, 6, 11, 13, 19, 20, 25, 26, 28, 37]  
+1. Calcule a média de todos os valores, somando-os e dividindo pela quantidade de valores. No nosso exemplo, a média seria 190 / 10 = 19
+2. Em seguida, para cada valor da população, calcule a diferença entre o valor e a média, e eleve a diferença ao quadrado. No nosso exemplo, o primeiro valor é 5 e a média é 19, então calculamos pow((5 - 19), 2) que é igual a 196. Para o segundo valor (que é 6), calculamos pow((6 - 19), 2) que é igual a 169, e assim por diante
+3. Calcule a soma de todos os valores do passo anterior. No nosso exemplo, 196 + 169 + ... = 956
+4. Divida a soma pelo número de valores na população. Esse valor é conhecido como variância. No nosso exemplo a população contém 10 números, portanto 956 / 10 = 95.6
+5. Por fim, para encontrar o desvio padrão, calcule a raíz quadrada da variância (passo anterior). No nosso exemplo sqrt(95.6) é aproximadamente 9.775
+
+**Input**  
+[5, 6, 11, 13, 19, 20, 25, 26, 28, 37]  
+[37, 81, 86, 91, 97, 108, 109, 112, 112, 114, 115, 117, 121, 123, 141]  
+[2.59, 2.55, 2.64, 2.61, 2.6, 2.5, 2.62, 2.63, 2.57, 2.64]  
+[3, 4, 2, 1]  
+
+**Output**  
+9.777  
+23.290  
+0.042  
+1.118  
+
+[Voltar à Lista](#exercícios)  
 
 ## Exercício 228 - Ordem Alfabética
 Algumas palavras têm suas letras em ordem alfabética, como a palavra "almost", onde cada letra aparece em sequência alfabética.  
